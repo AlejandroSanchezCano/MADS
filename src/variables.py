@@ -1,5 +1,7 @@
-INTERACTORS = '/home/asanchez/ppi/data/Interactors'
 AF = '/home/asanchez/ppi/data/AlphaFold_structures'
 ESM2_CONTACTMAPS = '/home/asanchez/ppi/data/ESM2/Contact_maps'
 ESM2_PERPROTEIN = '/home/asanchez/ppi/data/ESM2/Per_protein_embeddings'
 ESM2_PERRESIDUE = '/home/asanchez/ppi/data/ESM2/Per_residue_embeddings'
+INTERACTORS = '/home/asanchez/ppi/data/Interactors'
+NETWORKS = '/home/asanchez/ppi/data/Networks'
+PPI_DB = '/home/asanchez/ppi/data/PPI_databases'

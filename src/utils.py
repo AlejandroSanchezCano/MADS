@@ -8,6 +8,7 @@ from tqdm import tqdm
 
 # Custom modules
 from interactor import Interactor
+from structure import Structure
 
 def pickling(data: Any, path: str) -> None:
     '''
@@ -75,3 +76,5 @@ def iterate_folder(folder: str, start:int = 0, limit: int = -1) -> Generator[Any
             yield unpickling(f'{folder}/{file}')
         elif extension == 'int':
             yield Interactor.unpickle(file)
+        elif extension == 'pdb' or extension == 'pdbpkl':
+            yield Structure(file)
