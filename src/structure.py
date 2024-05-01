@@ -54,7 +54,7 @@ class Structure:
         return self.seq1[range[0] : range[-1] + 1]
     
     def kmer_counter(self, k: int = 2):
-        return Counter(self.seq1[i : i + k] for i in range(len(self.seq1)+1-k))
+        return Counter(self.seq1[i : i + k] for i in range(len(self.seq1) + 1 - k))
 
     def pLDDT_over_seq(self):
         '''
